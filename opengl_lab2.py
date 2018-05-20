@@ -26,7 +26,6 @@ from OpenGL.GL import (GL_ARRAY_BUFFER, GL_COLOR_BUFFER_BIT,GL_POINTS,
                        glTexParameteri, glActiveTexture, glUniform1i, glUniform1f,
                        glTexParameteri, glActiveTexture, glUniform1i, glBegin, glEnd, glVertex3f,glColor3f,glLineWidth,
                        glFlush)
-
 from OpenGL.arrays import ArrayDatatype
 from math import sin, sqrt, cos
 
@@ -46,7 +45,7 @@ firstMouse = True
 captureMouse = True;
 capturedMouseJustNow = False
 camera = Camera(a_pos=np.array([0.0, 50.0, 50.0], dtype=np.float32))
-
+# dsadsad
 from inspect import getframeinfo, stack
 
 def bind_buffer(vbo_vertices, vertices_vec, vbo_normals, normals_vec, vbo_indices, indices_vec):
